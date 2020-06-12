@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="./materialize/css/materialize.min.css" media="screen,projection" />
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- estilos css -->
+  <link rel="stylesheet" href="./estilos/header.css">
+  <link rel="stylesheet" href="./estilos/body.css">
+  <link rel="stylesheet" href="./estilos/menu_comidas.css">
+  <link rel="stylesheet" href="./estilos/footer.css">
+  <link rel="stylesheet" href="./estilos/scrollbar.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <label for="show-menu" class="show-menu">MENU</label>
+    <input type="checkbox" id="show-menu" role="button">
+    <ul class="navbar" id="menu">
+        <li class="navitem"><a href="./home.html">Home</a></li>
+        <li class="navitem "><a href="./cineindependiente.html">Cine independiente</a></li>
+        <li class="navitem"><a href="./tiquetes.html">Tiquetes</a></li> 
+        <li class="navitem"><a href="./tarjeta.html">Tarjeta</a></li>
+        <li class="navitem"><a href="./comidas.html">Confiteria</a></li>
+        <li class="navitem home"><a href="./proximos.html">Proximos estrenos</a></li>
+    </ul>
+</header>
+
+
+  <div class="sc-principal" style="background: none;">
+    <div class="row">
+      <div class="col s12">
+        <img class="logo" src="imagenes/banner.png" alt="logo" width="70" height="50" style="float: left; padding-top: 15px;">
+        <p>COMIDAS</p>
+      </div>
+    </div>
+    <hr style="border:1.5px dotted whitesmoke; width:100%" />
+    <div class="row">
+      <div class="col s12"><img src="imagenes/prom.png" alt="promoción" class="principal"></div>
+    </div>
+
+    <section class="sc-plazoleta">
+      <div id="myDIV">
+        <a href="#promos" ><button class="btn active">
+          <h6>Promos</h6>
+        </button></a>
+        <a href="#confiteria" ><button class="btn">
+          <h6>Confiteria</h6>
+        </button></a>
+        <a href="#gelato" ><button class="btn">
+          <h6>Gelato</h6>
+        </button></a>
+        <a href="#Juanvaldez" ><button class="btn">
+          <h6>Juan Valdez</h6>
+        </button></a>
+        <a href="#sushi" ><button class="btn">
+          <h6>Sushi</h6>
+        </button></a>
+        <a href="#dulces" ><button class="btn">
+          <h6>Dulces</h6>
+        </button></a>
+        <a href="#fiestas" ><button class="btn">
+          <h6>Fiestas</h6>
+        </button></a>
+        
+      </div>
+      <hr>
+      <hr>
+      <div class="slider">
+        <ul>
+          <li><img src="imagenes/promo2.jpg" alt=""></li>
+          <li><img src="imagenes/promo1.jpg" alt=""></li>
+          <li><img src="imagenes/promo3.png" alt=""></li>
+          <li><img src="imagenes/promo4.png" alt=""></li>
+          <li><img src="imagenes/promo5.jpg" alt=""></li>
+          <li><img src="imagenes/promo6.jpg" alt=""></li>
+          <li><img src="imagenes/promo7.jpg" alt=""></li>
+          <li><img src="imagenes/promo8.jpg" alt=""></li>
+          <li><img src="imagenes/promo9.JPG" alt=""></li>
+
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <div class="promos" id="promos">
+    <img src="imagenes/promos.png" alt="">
+    <p class="p1">Precio pleno: $15.000</p>
+    <p class="p2">Precio Tarjeta Platino: $12.400</p> <br>
+  </div>
+  <br>
+
+
+  <div class="confiteria" id="confiteria">
+    <div class="row">
+      <div class="col s2 7">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/confi1.png">
+          </div>
+          <div class="card-content">
+            <a href="#con1"><p>Combos.</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="col s2 7">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/confi2.jpg">
+          </div>
+          <div class="card-content">
+            <a href="#con2"><p>Crispetas.</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="col s2 7">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/confi3.png">
+          </div>
+          <div class="card-content">
+            <a href="#con3"><p>Comidas.</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="col s2 7">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/bebidas.png">
+          </div>
+          <div class="card-content">
+            <a href="#con4"><p>Bebidas.</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="col s2 7">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/dulces.jpg">
+
+          </div>
+          <div class="card-content">
+            <a href="#con5"><p>Paquetes dulces.</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="col s2 7">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagenes/salado.jpg">
+          </div>
+          <div class="card-content">
+            <a href="#con6"><p>Paquetes salados.</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3 id="con1">Combos</h3>
+    <hr width="98%">
+    <div class="cont-sec-2">
+
+      <div class="img-sec-2">
+        <img src="imagenes/confi1.png" alt="Combo1">
+        <h6>Combo personal 1</h6>
+        <p> 1 gaseosa pequeña 640ml- 1 perro caliente sencillo. <br>
+          Precio Lista: $9.800 <br>
+          Precio Tarjeta Platino: $ 8.000.
+        </p>
+      </div>
+      <div class="img-sec-2">
+        <img src="imagenes/combo2.png" alt="Combo2">
+        <h6>Combo personal 2</h6>
+        <p>1 gaseosa pequeña 640ml- 1 sandwich sencillo. <br>
+          Precio Lista: $9.800 <br>
+          Precio Tarjeta Platino: $ 8.000.
+        </p>
+      </div>
+      <div class="img-sec-2">
+        <img src="imagenes/combo3.png" alt="Combo3">
+        <h6>Combo personal 2</h6>
+        <p>1 gaseosa pequeña 640ml- 1 hamburguesa doble. <br>
+          Precio Lista: $10000 <br>
+          Precio Tarjeta Platino: $ 8.800.
+        </p>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="cont-sec-2">
+      <div class="img-sec-2">
+        <img src="imagenes/combo_4.png" alt="combo1">
+        <h6>Combo Familiar</h6>
+        <p>2 gaseosas grandes 1280ml- 2 perros calientes sencillos - 1 crispeta grande - 1 chocolatian jet. <br>
+          Precio Lista: $29.000 <br>
+          Precio Tarjeta Platino: $ 27.000.
+      </div>
+      <div class="img-sec-2">
+        <img src="imagenes/combo5.png" alt="Kiki">
+        <h6>Combo doble</h6>
+        <p>2 gaseosas medianas 960ml - 1 perro caliente sencillo - 2 crispetas medianas - 1 chocolatina jet. <br>
+          Precio Lista: $24.000 <br>
+          Precio Tarjeta Platino: $ 22.000.
+      </div>
+      <div class="img-sec-2">
+        <img src="imagenes/combo6.png" alt="Kiki">
+        <h6>Combo personal agrandado</h6>
+        <p>1 gaseosa pequeña 640ml- 1 perro caliente sencillo. - 1 crispeta pequeña - 1 chocolatina jet<br>
+          Precio Lista: $12.000 <br>
+          Precio Tarjeta Platino: $ 10.000.
+      </div>
+    </div>
+    <h3 id="con2">Crispetas</h3>
+    <hr width="98%">
+    <div class="cont-sec-2">
+
+      <div class="img-sec-2">
+        <img src="imagenes/palomitas1.png" alt="Combo1">
+        <h6>Palomitas pequeñas </h6>
+        <p> 1 Crispeta pequeña. <br>
+          Precio Lista: $8.000 <br>
+          Precio Tarjeta Platino: $ 6.000.
+        </p>
+      </div>
+      <div class="img-sec-2">
+        <img src="imagenes/palomitas1.png" alt="Combo2">
+        <h6>Palomitas medianas</h6>
+        <p>1 Crispeta mediana. <br>
+          Precio Lista: $9.800 <br>
+          Precio Tarjeta Platino: $ 8.000.
+        </p>
+      </div>
+      <div class="img-sec-2">
+        <img src="imagenes/palomitas1.png" alt="Combo3">
+        <h6>Palomitas grandes</h6>
+        <p>1 Crispeta Grande. <br>
+          Precio Lista: $11000 <br>
+          Precio Tarjeta Platino: $ 9.800.
+        </p>
+      </div>
+    </div>
+    <h3 id="con3">Comidas</h3>
+    <hr width="98%">
+    <div class="cont-sec-3">
+
+      <div class="img-sec-3">
+        <img src="imagenes/comidas.png" alt="Combo1">
+        <h6>Perro Caliente </h6>
+        <p>
+          Precio Lista: $9.100 <br>
+          Precio Tarjeta Platino: $ 8.200.
+        </p>
+      </div>
+      <div class="img-sec-3">
+        <img src="imagenes/comidas1.JPG" alt="">
+        <h6>Perro Caliente Especial 1</h6>
+        <p>
+          Precio Lista: $9.800 <br>
+          Precio Tarjeta Platino: $ 8.700.
+        </p>
+      </div>
+      <div class="img-sec-3">
+        <img src="imagenes/comidas2.JPG" alt="">
+        <h6>Perro Caliente Especial 2</h6>
+        <p>
+          Precio Lista: $9.800 <br>
+          Precio Tarjeta Platino: $ 8.700.
+        </p>
+      </div>
+      <div class="img-sec-3">
+        <img src="imagenes/comidas3.JPG" alt="">
+        <h6>Perro Caliente Especial 3</h6>
+        <p>
+          Precio Lista: $9.800 <br>
+          Precio Tarjeta Platino: $ 8.700.
+        </p>
+      </div>
+      <div class="img-sec-3">
+        <img src="imagenes/comidas4.jpg" alt="">
+        <h6>Nachos con queso</h6>
+        <p>
+          Precio Lista: $9.100 <br>
+          Precio Tarjeta Platino: $ 8.200.
+        </p>
+      </div>
+    </div>
+    <h3 id="con4">Bebidas</h3>
+    <hr width="98%">
+    <div class="cont-sec-4">
+
+      <div class="img-sec-4">
+        <img src="imagenes/beb1.jpg" alt="Combo1">
+        <h6> Gaseosa envase plastico </h6>
+        <p>
+          Precio Lista: $9.100 <br>
+          Precio Tarjeta Platino: $ 8.200.
+        </p>
+      </div>
+      <div class="img-sec-4">
+        <img src="imagenes/beb2.jpg" alt="">
+        <h6> Bebida azúcarada ice</h6>
+        <p>
+          Precio Lista: $ <br>
+          Precio Tarjeta Platino: $ .
+        </p>
+      </div>
+      <div class="img-sec-4">
+        <img src="imagenes/beb3.jpg" alt="">
+        <h6>Bebida dispensador Mediana</h6>
+        <p>
+          Precio Lista: $ <br>
+          Precio Tarjeta Platino: $ .
+        </p>
+      </div>
+      <div class="img-sec-4">
+        <img src="imagenes/beb4.jpg" alt="">
+        <h6>Bebida dispensador grande</h6>
+        <p>
+          Precio Lista: $ <br>
+          Precio Tarjeta Platino: $ .
+        </p>
+      </div>
+    </div>
+    <h3 id="con5">Paquetes Dulces</h3>
+    <hr width="98%">
+    <div class="cont-sec-5">
+
+      <div class="img-sec-5">
+        <img src="imagenes/dulce1.jpg" alt="">
+        <h6> paquetes surtidos dulces</h6>
+        <p>
+          Precio Lista: $ <br>
+          Precio Tarjeta Platino: $ .
+        </p>
+      </div>
+      <div class="img-sec-5">
+        <img src="imagenes/dulces2.jpg" alt="">
+        <h6>unidad bom bom bum</h6>
+        <p>
+          Precio Lista: $ <br>
+          Precio Tarjeta Platino: $ .
+        </p>
+      </div>
+      <div class="img-sec-5">
+        <img src="imagenes/dulces3.jpg" alt="">
+        <h6>Barra chocolate hershey´s</h6>
+        <p>
+          Precio Lista: $ <br>
+          Precio Tarjeta Platino: $ .
+        </p>
+      </div>
+      <div class="img-sec-5">
+        <img src="imagenes/dulces4.jpg" alt="">
+        <h6>Paquetes galletas surtidos</h6>
+        <p>
+          Precio Lista: $ <br>
+          Precio Tarjeta Platino: $ .
+        </p>
+      </div>
+      <div class="img-sec-5">
+        <img src="imagenes/dulces6.jpg" alt="">
+        <h6>Cajas dulces Nerds</h6>
+        <p>
+          Precio Lista: $ <br>
+          Precio Tarjeta Platino: $ .
+        </p>
+      </div>
+    </div>
+    <h3 id="con6">Paquetes salados</h3>
+    <hr width="98%">
+    <div class="cont-sec-2">
+
+      <div class="img-sec-2">
+        <img src="imagenes/sal1.jpg" alt="Combo1">
+        <h6>Paquete Doritos </h6>
+        <p> <
+          Precio Lista: $ <br>
+          Precio Tarjeta Platino: $ 
+        </p>
+      </div>
+      <div class="img-sec-2">
+        <img src="imagenes/sal2.jpg" alt="Combo2">
+        <h6>Paquetes Papas todos los sabores</h6>
+        <p>
+          Precio Lista: $ <br>
+          Precio Tarjeta Platino: $ .
+        </p>
+      </div>
+      <div class="img-sec-2">
+        <img src="imagenes/sla3.jpg" alt="Combo3">
+        <h6>Paqute cheetos</h6>
+        <p>
+          Precio Lista: $
+          Precio Tarjeta Platino: $.
+        </p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="Gelato" id="gelato">
+    <div class="gel-prin">
+
+      <div class="gel">
+        <img src="imagenes/h1.jpg" alt="Combo1">
+        <h6>Helado cono</h6>
+        <p> 
+          Precio Lista: $ <br>
+          Precio Tarjeta Platino: $ .
+        </p>
+      </div>
+      <div class="gel">
+        <img src="imagenes/h2.jpg" alt="Combo2">
+        <h6>Helado Platillo</h6>
+        <p> 
+          Precio Lista: $ <br>
+          Precio Tarjeta Platino: $ .
+        </p>
+      </div>
+      <div class="gel">
+        <img src="imagenes/h3.jpg" alt="Combo3">
+        <h6>Paleta helada</h6>
+        <p> 
+          Precio Lista: $ <br>
+          Precio Tarjeta Platino: $ .
+        </p>
+      </div>
+      <div class="gel">
+        <img src="imagenes/h4.jpg" alt="Combo3">
+        <h6>Helado todos los sabores</h6>
+        <p> 
+          Precio Lista: $ <br>
+          Precio Tarjeta Platino: $ .
+        </p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="Juan-Valdez" id="Juanvaldez">
+    <div class="jv">
+
+      <div class="exp">
+        <img src="imagenes/expresso_normal.jpg" alt="Combo1">
+        <h6>Expresso normal </h6>
+
+      </div>
+      <div class="exp">
+        <img src="imagenes/expresso doble.jpg" alt="Combo2">
+        <h6>Expreso Doble</h6>
+
+      </div>
+      <div class="exp">
+        <img src="imagenes/espresso vienes.jpg" alt="Combo3">
+        <h6>Espresso vienes</h6>
+      </div>
+      <div class="exp">
+        <img src="imagenes/espresso corto.jpg" alt="Combo3">
+        <h6>Espresso corto</h6>
+      </div>
+      <div class="exp">
+        <img src="imagenes/americano_0.jpg" alt="Combo3">
+        <h6>Espresso corto</h6>
+      </div>
+    </div>
+    <div class="jv">
+
+      <div class="exp">
+        <img src="imagenes/capuccino_vienes.jpg" alt="Combo1">
+        <h6>capuccino vienes </h6>
+
+      </div>
+      <div class="exp">
+        <img src="imagenes/flora origen aromatica.jpg" alt="Combo2">
+        <h6>Flora origen aromática</h6>
+
+      </div>
+      <div class="exp">
+        <img src="imagenes/fruppe maracuya.jpg" alt="Combo3">
+        <h6>Fruppe maracuyá</h6>
+      </div>
+      <div class="exp">
+        <img src="imagenes/fruppe mora.jpg" alt="Combo3">
+        <h6>Fruppe mora</h6>
+      </div>
+      <div class="exp">
+        <img src="imagenes/fruppe_mango.jpg" alt="Combo3">
+        <h6>Fruppe mango</h6>
+      </div>
+    </div>
+    <div class="jv">
+
+      <div class="exp">
+        <img src="imagenes/latte moca.jpg" alt="Combo1">
+        <h6>Latte moca </h6>
+
+      </div>
+      <div class="exp">
+        <img src="imagenes/latte vanicanela.jpg" alt="Combo2">
+        <h6>Latte vanicanela</h6>
+
+      </div>
+      <div class="exp">
+        <img src="imagenes/nevado arequipe.jpg" alt="Combo3">
+        <h6>Nevado arequipe</h6>
+      </div>
+      <div class="exp">
+        <img src="imagenes/nevado galleta.jpg" alt="Combo3">
+        <h6>Nevado galleta</h6>
+      </div>
+      <div class="exp">
+        <img src="imagenes/rollo canela.jpg" alt="Combo3">
+        <h6>Rollo canela</h6>
+      </div>
+    </div>
+
+  </div>
+  <br>
+  <div class="promos" id="sushi">
+    <img src="imagenes/sushi.jpg" alt="sushi" width="600" height="300" style="margin-top: 20px; margin-bottom: 15px;">
+    <p class="p1"> Rol cualquier sabor 5 makis precio pleno: $20.900</p>
+    <p class="p1"> Rol cualquier sabor 5 makis precio Tarjeta Platino: $17.900 </p>
+    <p class="p1"> Rol cualquier sabor 10 makis precio pleno: $30.900 </p>
+    <p class="p1"> Rol cualquier sabor 10 makis precio Tarjeta Platino: $27.900 </p> <br>
+
+  </div>
+  <br>
+  <div class="dulces" id="dulces">
+    <div class="dul-cont">
+      <div class="d">
+        <img src="imagenes/dul1.jpg" alt="">
+        <h6>Gran variedad de gomas y chocolates al granel, vendidas por peso</h6>
+        <p>Precio Lista: $60 <br>
+          Precios Tarjeta Platino: $55</p>
+      </div>
+      <div class="d">
+        <img src="imagenes/dul2.jpg" alt="">
+        <h6>Gran variedad de gomas y chocolates al granel, vendidas por peso</h6>
+        <p>Precio Lista: $70 <br>
+          Precios Tarjeta Platino: $65</p>
+      </div>
+      <div class="d">
+        <img src="imagenes/dul3.png" alt="">
+        <h6>Candy Toys </h6>
+        <p>Precio Lista: $22.400 <br>
+          Precios Tarjeta Platino: $20.200</p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="fiestas" id="fiestas">
+    <div class="imge">
+      <img src="imagenes/fiestas.JPG" alt="">
+    </div>
+    <hr width="98%">
+    <div class="info">
+      <h5>MÁS INFORMACIÓN, RESERVAS Y PRECIOS - BOGOTÁ</h5>
+      <p>Unicentro 404 2463</p>
+      <hr width="98%">
+      <p>Santafé Bogotá 404 2463</p>
+      <hr width="98%">
+      <p>Titán Plaza 404 2463</p>
+      <hr width="98%">
+      <p>Centro Mayor 404 2463</p>
+      <hr width="98%">
+      <p>Gran Estación 404 2463</p>
+      <hr width="98%">
+    </div>
+    <h6 style="text-align: left; font-size: 30px;">Realizar Solicitud</h6>
+    <div class="f">
+
+      <div class="formulario1">
+        <form action="">
+          <h2>1-Información de contacto</h2>
+          <input type="text" name="nombre" placeholder="Nombres y apellidos" maxlength="35">
+          <input type="email" name="correo" placeholder="Email">
+          <input type="tel" name="telefono" placeholder="Telefono">
+          <div class="form-item form-type-textfield form-item-celular">
+            <label for="edit-celular"
+              style="background: none; font-size: 15px; font-family: cursive; color: blanchedalmond;">Celular </label>
+            <input type="text" id="edit-celular" name="celular" value="" maxlength="128" class="form-text">
+          </div>
+        </form>
+      </div>
+      <div class="formulario2">
+        <form action="">
+          <h2>Detalles del servicio</h2>
+          <input type="text" name="" id="" placeholder="Capacidad requerida">
+          <input type="text" name="" id="" placeholder="Ciudad">
+          <input type="text" name="" id="" placeholder="Fecha del evento dd/mm/aa">
+          <input type="text" name="" id="" placeholder="Hora inicio">
+          <input type="text" name="" id="" placeholder="Cantidad de niños">
+          <label for="textarea" style="background: none; font-size: 15px; font-family: cursive; color: blanchedalmond;">
+            Comentarios</label>
+          <textarea name="mensaje" id="textarea" placeholder="Escriba aquí sus comentarios"></textarea>
+          <input type="submit" id="boton" value="Envíar">
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+
+<!-- pie de pagina -->
+<footer id="piepagina">
+    <div class="map col">
+        <div class="mapa">
+            <h3>Ubicanos en</h3>
+            <br>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7543.45522942264!2d-74.05353255671098!3d4.706448161043952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x26959015d4f34b8c!2sCine%20Colombia%20unicentro!5e0!3m2!1ses-419!2sco!4v1584662628785!5m2!1ses-419!2sco"
+                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            <h4>Bogotá- Colombia</h4>
+        </div>
+    </div>
+
+    <div class="info col">
+        <h3>-About-</h3>
+        <br>
+        <p>
+            Encuentra las mejores pelìculas, al mejor precio y con los mejores beneficios...
+            <br>
+            ¿No sabes que hacer en una tarde?
+            <br>
+            Nostros si, una tarde de pelìcula es algo que te puede animar...
+        </p>
+    </div>
+    <div class="social col">
+        <h3>-Redes-</h3>
+        <br>
+        <div class="redes">
+            <img src="../Iconos/instagram.png" alt="">
+            <img src="../Iconos/twitter.png" alt="">
+            <img src="../Iconos/facebook.png" alt="">
+            <img src="../Iconos/whatsapp.png" alt="">
+        </div>
+        <div class="logokirari">
+            <img src="../Iconos/84966851-ilustración-vectorial-el-rey-león-la-cabeza-de-un-león-en-la-corona-sobre-un-fondo-blanco-.jpg"
+                alt="">
+        </div>
+    </div>
+</footer>
+<div class="textofooter">
+    <p>
+        © COPYRIGHT 2020
+        <br>
+        Todos los derechos reservados Bogotá - Colombia
+    </p>
+</div>
+
+
+
+
+  <!-- js -->
+  <script src="js/comidas.js"></script>
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

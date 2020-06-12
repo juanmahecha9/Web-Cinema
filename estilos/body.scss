@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
+$navbar: 'Baloo 2', cursive;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../Background/DPP_0027.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: whitesmoke;
+  }

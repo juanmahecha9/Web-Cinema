@@ -1,0 +1,71 @@
+h1, h2, p {
+  text-align: center;
+  margin: 25px;
+  background-color: black;
+  -webkit-filter: opacity(50%);
+          filter: opacity(50%);
+}
+
+.contenedor {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contenedor #fgh {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  width: 50%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contenedor #fgh #id_of_select, .contenedor #fgh #cantidad, .contenedor #fgh #btn {
+  margin: auto;
+  width: 150px;
+  margin: 25px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 150px;
+  height: 50px;
+}
+
+.contenedor #fgh #id_of_slect {
+  border-radius: 10px;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.contenedor #fgh #cantidad {
+  border-radius: 10px;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.contenedor #fgh #btn {
+  border-radius: 10px;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.contenedor .display {
+  width: 50%;
+  color: whitesmoke;
+  font-size: 70px;
+  margin: auto;
+}
+/*# sourceMappingURL=tiqutes.css.map */

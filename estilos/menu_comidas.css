@@ -1,0 +1,452 @@
+*{
+  margin: 0;
+  padding: 0px 15px;
+  text-align: center;
+  color: blanchedalmond; 
+  font-family: cursive;
+}
+p{
+  color: blanchedalmond; 
+  font-family: cursive;
+}
+.sc-plazoleta{
+    margin-top: -13px;
+    width: 1300px;
+    left: 0;
+    text-align: center;
+    
+    
+    
+}
+/* Style the buttons */
+.btn {
+    
+    background-color: #00bfa5;
+    border: none;
+    outline: none;
+    padding: 0px 16px ;
+    cursor: pointer;
+    float: left;
+    left: 0; 
+  }
+  h6{
+    background: none;
+  }
+  
+  /* Style the active class (and buttons on mouse-over) */
+  .active, .btn:hover {
+    background-color:#cddc39 ; 
+  }
+
+  .slider {
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+    overflow: hidden;
+    height: 500px;
+  }
+  
+  .slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    
+    animation: cambio 60s infinite alternate linear;
+  }
+  
+  .slider li {
+    width: 100%;
+    list-style: none;
+  }
+  
+  .slider img {
+    
+    height: 400px;
+    padding: 0 160px;
+  }
+  
+  @keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: -100;}
+    
+    25% {margin-left: -200%;}
+    45% {margin-left: -300%;}
+    
+    50% {margin-left: -400%;}
+    70% {margin-left: -500%;}
+    
+    75% {margin-left: -600%;}
+    100% {margin-left:  0;}
+  }
+
+  .promos{
+    background-color:rgba(238, 255, 255, 0.1);
+    border-radius: 15px;
+  }
+  .promos .p1 {
+    background-color:rgba(128, 128, 128, 0.5);
+  }
+  .promos .p2 {
+    background-color: rgba(128, 128, 128, 0.5);
+    margin-bottom: 25px;
+  }
+  .confiteria{
+    background-color: rgba(238, 255, 255, 0.1);
+    border-radius: 15px;
+    
+  }
+  .card{
+    
+    height: 220px;
+    border-radius: 15px;
+  }
+  .card-image{
+    
+    height: 120px;
+  }
+  .card-image img{
+    
+    height: 100%;
+  }
+  .card-content{
+    height: 80px;
+  }
+  .card-content p{
+    font-size: 15px;
+    color: darkblue;
+  }
+.cont{
+  display: inline-flex;
+  justify-content: space-between;
+}
+.cont-sec-2{
+  display: inline-flex;
+  justify-content: space-between;
+}
+.cont-sec-2 .img-sec-2{
+  width: 33%;
+  padding: 10px;
+  background-image: url(../fondos/peach1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: lavender;
+  border-radius: 10px;  
+}
+.cont-sec-2 .img-sec-2 img{
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  
+}
+.cont-sec-2 .img-sec-2 h6{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  color: white;
+}
+.cont-sec-2 .img-sec-2 p{
+  text-align: justify;
+  color:blanchedalmond;;
+}
+.cont-sec-3{
+  display: inline-flex;
+  justify-content: space-between;
+}
+.cont-sec-3 .img-sec-3{
+  width: 20%;
+  padding: 10px;
+  background-image: url(../fondos/peach1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: lavender;
+  border-radius: 10px;  
+}
+.cont-sec-3 .img-sec-3 img{
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  
+}
+.cont-sec-3 .img-sec-3 h6{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  color: white;
+}
+.cont-sec-3 .img-sec-3 p{
+  text-align: justify;
+  color:blanchedalmond;
+}
+.cont-sec-4{
+  display: inline-flex;
+  justify-content: space-between;
+}
+.cont-sec-4 .img-sec-4{
+  width: 25%;
+  padding: 10px;
+  background-image: url(../fondos/peach1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: lavender;
+  border-radius: 10px;  
+}
+.cont-sec-4 .img-sec-4 img{
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  
+}
+.cont-sec-4 .img-sec-4 h6{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  color: white;
+}
+.cont-sec-4 .img-sec-4 p{
+  text-align: justify;
+  color:blanchedalmond;
+}
+.cont-sec-5{
+  display: inline-flex;
+  justify-content: space-between;
+}
+.cont-sec-5 .img-sec-5{
+  width: 20%;
+  padding: 10px;
+  background-image: url(../fondos/peach1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: lavender;
+  border-radius: 10px;  
+}
+.cont-sec-5 .img-sec-5 img{
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  
+}
+.cont-sec-5 .img-sec-5 h6{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  color: white;
+}
+.cont-sec-5 .img-sec-5 p{
+  text-align: justify;
+  color:black;
+}
+.Gelato{
+  background-color: rgba(238, 255, 255, 0.1);
+  border-radius: 15px;
+  
+}
+.gel-prin{
+  display: inline-flex;
+  justify-content: space-between;
+}
+.gel-prin .gel{
+  width: 20%;
+  padding: 10px;
+  background-image: url(../fondos/peach1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: lavender;
+  border-radius: 10px;  
+}
+.gel-prin .gel img{
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  
+}
+.gel-prin .gel h6{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  color: white;
+}
+.gel-prin .gel p{
+  text-align: justify;
+  color:blanchedalmond;;
+}
+.Juan-Valdez{
+  background-color: rgba(238, 255, 255, 0.1);
+  border-radius: 15px;
+  
+}
+.jv{
+  display: inline-flex;
+  justify-content: space-between;
+}
+.jv .exp{
+  width: 20%;
+  padding: 10px;
+  background-image: url(../fondos/peach1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: lavender;
+  border-radius: 10px;  
+}
+.jv .exp img{
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  
+}
+.jv .exp h6{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  color: white;
+}
+.dulces{
+  background-color: rgba(238, 255, 255, 0.1);
+  border-radius: 15px;
+  
+}
+.dul-cont{
+  display: inline-flex;
+  justify-content: space-between;
+}
+.dul-cont .d{
+  width: 33%;
+  padding: 10px;
+  background-image: url(../fondos/peach1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: lavender;
+  border-radius: 10px;  
+}
+.dul-cont .d img{
+  width: 60%;
+  height: 150px;
+  border-radius: 5px;
+  
+}
+.dul-cont .d h6{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  color:white;
+}
+.dul-cont .d p{
+  text-align: justify;
+  color:blanchedalmond;
+}
+.fiestas{
+  background-color: rgba(238, 255, 255, 0.1);
+  border-radius: 15px;
+} 
+.imge{
+  padding: 10px;;
+}
+.f{
+  display: inline-flex;
+  justify-content: space-between;
+}
+.formulario1{
+  padding: 10px; 
+  float: left; 
+  width: 45%; 
+  text-align: justify;
+}
+.formulario2{
+  padding: 10px; 
+  float: right; 
+  width: 45%; 
+  text-align: justify;
+}
+form{
+  margin-left: 50px;
+  width: 450px;
+  background: rgba(128, 128, 128, 0.5);
+  padding: 20px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+  
+  color: black;
+}
+input, textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+  font-family: Segoe Print;
+  border-radius: 5px;
+}
+textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+#boton{
+  background: grey;
+  color: black;
+  padding: 20;
+}
+#boton:hover{
+  cursor: pointer;
+  background-color: white;
+  color:dodgerblue;
+}
+/* responsive */
+
+@media(max-width: 600px){
+  .sc-principal  .sc-plazoleta{
+      width:100%;
+      height: 400px;
+  }
+
+   .sc-principal .logo img{
+    width: 46px;
+  } 
+  
+ 
+}
+@media(min-width: 600px){
+  .sc-principal .sc-plazoleta{
+      width: 100%;
+      height: 400px;
+  }
+  .sc-principal .logo img{
+    width: 46px;
+  } 
+  .sc-principal .principal {
+    width: 700px;
+  }
+ 
+  
+ 
+}
+
+@media(min-width: 768px){
+  .sc-principal .sc-plazoleta{
+      width: 100%;
+      height: 420px;
+  }
+  .sc-principal .logo img{
+    width: 46px;
+  } 
+ 
+  
+ 
+}
+@media(min-width: 992px){
+  .sc-principal .sc-plazoleta{
+      width: 100%;
+      height: 440px;
+  }
+  .sc-principal .logo img{
+    width: 46px;
+  } 
+  
+ 
+}
+@media (min-width: 1200px){
+  .sc-principal .sc-plazoleta{
+      width: 100%;
+      height: 600px;
+  }
+  .sc-principal .logo img{
+    width: 46px;
+  } 
+  
+  
+ 
+}

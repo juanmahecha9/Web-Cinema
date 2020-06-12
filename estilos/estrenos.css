@@ -1,0 +1,532 @@
+@import url("https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap");
+#cuerpo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+#cuerpo #cuerpo1 {
+  width: 80%;
+  padding: 25px;
+}
+
+#cuerpo #cuerpo1 h1 {
+  text-align: center;
+}
+
+#cuerpo #cuerpo2 {
+  display: block;
+  width: 20%;
+  border-left: 2px ridge whitesmoke;
+}
+
+#cuerpo #cuerpo2 .propaganda {
+  width: 100%;
+  padding: 30px;
+}
+
+#cuerpo #cuerpo2 .propaganda img {
+  margin: auto;
+  width: 80%;
+  margin-left: 10px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1500px) {
+  #cuerpo {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #cuerpo #cuerpo1 {
+    width: 80%;
+  }
+  #cuerpo #cuerpo2 {
+    display: block;
+    width: 20%;
+  }
+  #cuerpo #cuerpo2 .propaganda {
+    width: 100%;
+  }
+  #cuerpo #cuerpo2 .propaganda img {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  #cuerpo {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #cuerpo #cuerpo1 {
+    width: 100%;
+  }
+  #cuerpo #cuerpo2 {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  #cuerpo {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #cuerpo #cuerpo1 {
+    width: 100%;
+  }
+  #cuerpo #cuerpo2 {
+    display: none;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-family: "Liu Jian Mao Cao", cursive;
+  font-size: 65px;
+  font-style: oblique;
+}
+
+#division {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+  -webkit-filter: opacity(80%);
+          filter: opacity(80%);
+}
+
+#division > div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#division > div:first-child {
+  margin-left: 0;
+}
+
+#division > div:last-child {
+  margin-right: 0;
+}
+
+#division article {
+  width: 50%;
+  height: auto;
+  text-align: center;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  border: whitesmoke 1px solid;
+  padding: 25px;
+}
+
+#division article .publicidad {
+  width: 100%;
+}
+
+#division article .publicidad img {
+  width: 100%;
+}
+
+#division article .vota {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+#division article .vota .peliculavotada {
+  display: block;
+  width: 24%;
+  padding: 10px;
+}
+
+#division article .vota .peliculavotada img {
+  width: 100%;
+  height: 400px;
+}
+
+#division article:hover {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+  -webkit-box-shadow: 0 2px 2px black;
+          box-shadow: 0 2px 2px black;
+}
+
+@media (max-width: 2367px) {
+  #division {
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    -webkit-filter: opacity(80%);
+            filter: opacity(80%);
+  }
+  #division > div {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  #division > div:first-child {
+    margin-left: 0;
+  }
+  #division > div:last-child {
+    margin-right: 0;
+  }
+  #division article {
+    width: 50%;
+    height: auto;
+    text-align: center;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+  }
+  #division article .publicidad {
+    width: 100%;
+  }
+  #division article .publicidad img {
+    width: 100%;
+  }
+  #division article .vota {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+  }
+  #division article .vota .peliculavotada {
+    display: block;
+    width: 24%;
+    padding: 10px;
+  }
+  #division article .vota .peliculavotada img {
+    width: 100%;
+    height: 400px;
+  }
+  #division article:hover {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+    -webkit-box-shadow: 0 2px 2px black;
+            box-shadow: 0 2px 2px black;
+  }
+}
+
+@media (max-width: 1070px) {
+  #division {
+    margin-top: 40px;
+    width: 100%;
+    margin-top: -15px;
+  }
+  #division article {
+    margin-bottom: 5px;
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+  }
+  #division article:nth-last-child(2) {
+    margin-right: 0;
+    margin: auto;
+  }
+  #division article:last-child {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin: 0;
+  }
+  #division article .publicidad {
+    margin: auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #division article .publicidad img {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 980px) {
+  #division {
+    margin-top: 40px;
+  }
+  #division article {
+    margin-bottom: 5px;
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+  }
+  #division article:nth-last-child(2) {
+    margin-right: 0;
+    margin: auto;
+  }
+  #division article:last-child {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin: 0;
+    margin: auto;
+  }
+  #division article .publicidad {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #division article .publicidad img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  #division {
+    width: 100%;
+    margin-top: 40px;
+  }
+  #division article {
+    width: 100%;
+  }
+  #division article .publicidad {
+    width: 100%;
+  }
+  #division article .publicidad img {
+    width: 100%;
+  }
+  #division article .vota {
+    display: block;
+    width: 100%;
+  }
+  #division article .vota .peliculavotada {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  #division article .vota .peliculavotada img {
+    width: 80%;
+    height: 400px;
+  }
+}
+
+#boton1 {
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#boton1 h1 {
+  margin-top: 25px;
+}
+
+#boton1 a {
+  font-family: "Liu Jian Mao Cao", cursive;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 40px;
+}
+
+#boton1 a:hover {
+  color: red;
+}
+
+@media (max-width: 700px) {
+  #boton1 {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+  #boton1 h1 {
+    font-size: 25px;
+  }
+  #boton1 a {
+    font-family: "Liu Jian Mao Cao", cursive;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 40px;
+  }
+  #boton1 img {
+    width: 50%;
+  }
+  #boton1 a:hover {
+    color: red;
+  }
+}
+
+#boton {
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+  margin-top: 40px;
+  background-color: #4116de;
+  padding: 20px;
+  width: 200px;
+  height: 70px;
+  border-radius: 150px 0 150px 0;
+}
+
+#boton a {
+  font-family: "Liu Jian Mao Cao", cursive;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+#boton:hover {
+  background-color: #34a21d;
+}
+
+#boton:hover a {
+  color: black;
+}
+
+.container {
+  margin-top: 50px;
+  margin: auto;
+  width: 350px;
+  height: 500px;
+  position: relative;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.container #carousel {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-animation: rotation 90s infinite linear;
+          animation: rotation 90s infinite linear;
+}
+
+.container #carousel:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.container figure {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: block;
+  position: absolute;
+  width: 350px;
+  height: 500px;
+  left: 10px;
+  top: 10px;
+  overflow: hidden;
+}
+
+.container figure img {
+  width: 52%;
+  cursor: pointer;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.container figure img:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+#carousel figure:nth-child(1) {
+  -webkit-transform: rotateY(0deg) translateZ(288px);
+          transform: rotateY(0deg) translateZ(288px);
+}
+
+#carousel figure:nth-child(2) {
+  -webkit-transform: rotateY(40deg) translateZ(288px);
+          transform: rotateY(40deg) translateZ(288px);
+}
+
+#carousel figure:nth-child(3) {
+  -webkit-transform: rotateY(80deg) translateZ(288px);
+          transform: rotateY(80deg) translateZ(288px);
+}
+
+#carousel figure:nth-child(4) {
+  -webkit-transform: rotateY(120deg) translateZ(288px);
+          transform: rotateY(120deg) translateZ(288px);
+}
+
+#carousel figure:nth-child(5) {
+  -webkit-transform: rotateY(160deg) translateZ(288px);
+          transform: rotateY(160deg) translateZ(288px);
+}
+
+#carousel figure:nth-child(6) {
+  -webkit-transform: rotateY(200deg) translateZ(288px);
+          transform: rotateY(200deg) translateZ(288px);
+}
+
+#carousel figure:nth-child(7) {
+  -webkit-transform: rotateY(240deg) translateZ(288px);
+          transform: rotateY(240deg) translateZ(288px);
+}
+
+#carousel figure:nth-child(8) {
+  -webkit-transform: rotateY(280deg) translateZ(288px);
+          transform: rotateY(280deg) translateZ(288px);
+}
+
+#carousel figure:nth-child(9) {
+  -webkit-transform: rotateY(320deg) translateZ(288px);
+          transform: rotateY(320deg) translateZ(288px);
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+/*# sourceMappingURL=estrenos.css.map */
